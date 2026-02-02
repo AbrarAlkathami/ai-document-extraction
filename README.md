@@ -1,2 +1,2 @@
-# ai-document-extraction
+# AI Document Extraction
 FastAPI backend for uploading documents, creating async extraction jobs, and retrieving mock AI-extracted records with clean architecture.
