@@ -181,5 +181,3 @@ uv run alembic current
 - **No rate limiting** - would add for production to prevent abuse
 - **Single database connection pool** - would tune pool size for production workload
 - **No request tracing** - would add correlation IDs for debugging
-
-MIT
