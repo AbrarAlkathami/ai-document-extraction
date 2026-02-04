@@ -1,0 +1,17 @@
+[project]
+name = "ai-document-extraction"
+version = "0.1.0"
+description = "FastAPI service for document uploads and asynchronous extraction jobs, persisting mock AI results in Postgres and exposing status + records APIs using clean architecture."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "alembic>=1.18.3",
+    "asyncpg>=0.31.0",
+    "fastapi>=0.128.0",
+    "greenlet>=3.0.0",
+    "psycopg[binary]>=3.3.2",
+    "pydantic-settings>=2.12.0",
+    "python-multipart>=0.0.22",
+    "sqlalchemy>=2.0.46",
+    "uvicorn>=0.40.0",
+]
