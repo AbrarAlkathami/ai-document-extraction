@@ -55,8 +55,8 @@ async def root():
     return {"message": "AI Document Extraction API"}
 
 
-@app.get("/health_check")
-def health_check():
+@app.get("/health")
+def health():
     return {"message": "API is running"}
 
 

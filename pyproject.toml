@@ -3,7 +3,7 @@ name = "ai-document-extraction"
 version = "0.1.0"
 description = "FastAPI service for document uploads and asynchronous extraction jobs, persisting mock AI results in Postgres and exposing status + records APIs using clean architecture."
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = [
     "alembic>=1.18.3",
     "asyncpg>=0.31.0",

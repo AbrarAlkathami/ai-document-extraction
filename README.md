@@ -23,7 +23,7 @@ FastAPI backend for uploading documents, creating async extraction jobs, and ret
 
 ### Prerequisites
 
-- Python 3.14+
+- Python 3.12+
 - Docker & Docker Compose
 - [uv](https://github.com/astral-sh/uv) (recommended) or pip
 
